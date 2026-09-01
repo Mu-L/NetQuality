@@ -208,7 +208,7 @@ docker run --rm --net=host -it xykt/netquality -E & docker rmi xykt/netquality >
 
 **Acknowledgments:**
 
-- Thanks to the NextTrace team​ ([Official Site](https://www.nxtrace.org/), [GitHub](https://github.com/nxtrace/NTrace-core)) for providing a stable and reliable ​three-network return route testing tool.
+- Thanks to the NextTrace team​ ([Official Site](https://www.nxtrace.org/), [GitHub](https://github.com/nxtrace/NTrace-core)) for providing a stable and reliable ​three-network return route testing tool. The IP geolocation and network path data used in Part 5 of this project are provided by the official NextTrace API.
 
 - ​Thanks to [Speedtest.net](https://www.speedtest.net/) and [Speedtest® CLI​](https://www.speedtest.net/apps/cli), which is currently the ​only available command-line three-network speed testing tool​ in mainland China.
 
