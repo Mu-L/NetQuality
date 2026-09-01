@@ -195,7 +195,7 @@ docker run --rm --net=host -it xykt/netquality & docker rmi xykt/netquality > NU
 
 **Acknowledgments:**
 
-- 感谢NextTrace项目组（[官网](https://www.nxtrace.org/)，[GitHub](https://github.com/nxtrace/NTrace-core)）提供稳定可靠的三网回程路由测试工具
+- 感谢NextTrace项目组（[官网](https://www.nxtrace.org/)，[GitHub](https://github.com/nxtrace/NTrace-core)）提供稳定可靠的三网回程路由测试工具，本项目第五部分所涉及IP地理位置及线路标注数据由NextTrace官方API提供。
 
 - 感谢[SPEETNET.net](https://www.speedtest.net/)，[Speedtest® CLI](https://www.speedtest.net/apps/cli)是目前大陆地区唯一可用的命令行三网测速工具
 
