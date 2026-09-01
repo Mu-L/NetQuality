@@ -1,5 +1,5 @@
 #!/bin/bash
-script_version="v2026-01-25"
+script_version="v2026-09-01"
 check_bash(){
 current_bash_version=$(bash --version|head -n 1|awk '{for(i=1;i<=NF;i++) if ($i ~ /^[0-9]+\.[0-9]+(\.[0-9]+)?/) print $i}')
 major_version=$(echo "$current_bash_version"|cut -d'.' -f1)
@@ -243,7 +243,7 @@ sconn[upstreams]="Upstreams Counts: "
 sconn[peers]="Peers Counts: "
 sdelay[title]="4. China Mainland TCP Delay (${Font_I}CT|CU|CM Step=80ms$Font_Suffix)      "
 sdelay[pingmode]="$(printf '%8s'|tr ' ' '*')China Telecom$(printf '%13s'|tr ' ' '*')China Unicom$(printf '%14s'|tr ' ' '*')China Mobile$(printf '%8s'|tr ' ' '*')"
-sroute[title]="5. Route to China Mainland (May vary with network congestion)"
+sroute[title]="5. Route to China Mainland (NextTrace)"
 sroute[ct]="CTel"
 sroute[cu]="CUni"
 sroute[cm]="CMob"
@@ -341,7 +341,7 @@ sconn[upstreams]="上游数量："
 sconn[peers]="对等互联数量："
 sdelay[title]="四、三网TCP大包延迟（$Font_I依次为电信|联通|移动 Step=80ms$Font_Suffix） "
 sdelay[pingmode]="$(printf '%12s'|tr ' ' '*')电 信$(printf '%21s'|tr ' ' '*')联 通$(printf '%21s'|tr ' ' '*')移 动$(printf '%11s'|tr ' ' '*')"
-sroute[title]="五、三网回程路由（$Font_I线路可能随网络负载动态变化$Font_Suffix）"
+sroute[title]="五、三网回程路由（${Font_I}NextTrace$Font_Suffix）"
 sroute[ct]="电信"
 sroute[cu]="联通"
 sroute[cm]="移动"
